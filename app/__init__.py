@@ -16,13 +16,5 @@ def index():
 	http://127.0.0.1:5000/ or http://127.0.0.1:5000/index.
 	"""
 	user = {'nickname' : 'Jonathan'} #fake user
-	return '''
-<html>
-	<head>
-		<title>Home Page</title>
-	</head>
-	<body>
-		<h1>Hello, ''' + user['nickname'] + '''</h1>
-	</body>
-</html>
-'''
+	 
+
